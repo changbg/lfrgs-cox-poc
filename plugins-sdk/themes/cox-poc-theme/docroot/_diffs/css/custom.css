@@ -1,0 +1,44 @@
+@import "compass";
+@import "mixins";
+
+/**
+* COX POC CSS
+* PLEASE MAKE CHANGES IN THE IMPORTED FILE
+*
+* TABLE OF CONTENTS
+*
+* 1. GLOBAL
+* 2. UTILITY
+* 3. HEADER / BANNER
+* 4. NAVIGATION
+* 5. MAIN CONTENT
+* 6. PORTLET
+* 7. FOOTER
+* 8. RESPONSIVE
+*/
+
+/* IMPORT COX POC VARIABLES AND MIXINS */
+@import "cox_variables";
+@import "cox_mixins";
+
+/* IMPORT cox DOCKBAR CSS */
+@import url(dockbar-bubbles.css);
+
+.aui {
+	/* 1. GLOBAL */
+	@import "global";
+	/* 2. UTILITY */
+	@import "utility";
+	/* 3. HEADER / BANNER */
+	@import "header_banner";
+	/* 4. NAVIGATION */
+	@import "navigation";
+	/* 5. MAIN CONTENT */
+	@import "main_content";
+	/* 6. PORTLET */
+	@import "portlet";
+	/* 7. FOOTER */
+	@import "footer";
+	/* 8. RESPONSIVE */
+	@import "responsive";
+}
