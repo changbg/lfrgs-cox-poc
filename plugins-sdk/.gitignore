@@ -1,0 +1,14 @@
+## IVY
+.ivy
+dist/
+lib/
+ivy.xml.MD5
+
+## Themes
+themes/**/docroot/css/
+themes/**/docroot/fonts/
+themes/**/docroot/images/
+themes/**/docroot/js/
+themes/**/docroot/templates/
+themes/**/docroot/WEB-INF/lib/
+themes/**/docroot/WEB-INF/classes/
