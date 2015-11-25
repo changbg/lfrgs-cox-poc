@@ -1,1 +1,23 @@
 // COX POC SCSS VARIABLES
+
+// COLOR VARIABLES
+$blue: #045690;
+$light_blue: #008DCD;
+$dark_blue: #2757A7;
+
+$gray: #4F5051;
+$dark_gray: #353537;
+
+// COLOR SCHEME
+$primary: $blue;
+$seconday: $gray;
+$accent: $light_blue;
+
+// TYPOGRAPHY
+// IMPORT WEB FONT
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,400,300,700);
+
+$open_sans: 'Open Sans', sans-serif;
+
+// ELEMENTS
+$link: $dark_blue;
