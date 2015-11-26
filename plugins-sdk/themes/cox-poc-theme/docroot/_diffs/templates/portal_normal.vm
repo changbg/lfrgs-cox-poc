@@ -33,7 +33,7 @@ $theme.include($body_top_include)
 		#end
 
 		#if (!$is_signed_in)
-			<a data-redirect="$is_login_redirect_required" href="$sign_in_url" id="sign-in" rel="nofollow">$sign_in_text</a>
+			<button class="btn btn-medium btn-sign-in" data-redirect="$is_login_redirect_required" href="$sign_in_url" id="sign-in">$sign_in_text</button>
 		#end
 	</header>
 
