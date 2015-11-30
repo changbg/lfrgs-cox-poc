@@ -1,1 +1,12 @@
 // COX POC RESPONSIVE STYLES
+@import "mixins";
+
+@include respond-to(tablet, phone) {
+	#_145_navSiteNavigationNavbarBtn {
+		display: none;
+	}
+
+	#wrapper, body {
+		padding: 0;
+	}
+}
