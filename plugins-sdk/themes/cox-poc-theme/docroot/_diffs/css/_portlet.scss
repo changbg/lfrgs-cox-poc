@@ -1,1 +1,10 @@
 // COX POC PORTLET STYLES
+
+#content .portlet-boundary {
+	background-color: $portlet_background;
+
+	@include card(1);
+
+	margin: 0 0 25px 0;
+	padding: 25px;
+}
