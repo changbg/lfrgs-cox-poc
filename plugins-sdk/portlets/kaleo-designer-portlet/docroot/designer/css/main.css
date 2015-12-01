@@ -63,7 +63,8 @@
 
 	.diagram-builder-content-container {
 		.tabbable {
-			/*COX POC UPDATE WIDTH*/
+			/*width: 75%;*/
+			/*UPDATING WIDTH FOR POC*/
 			width: 100%;
 		}
 	}
