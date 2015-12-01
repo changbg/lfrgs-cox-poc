@@ -6,6 +6,7 @@
 	/*height: 600px;*/
 	/*UPDATING HEIGHT FOR POC*/
 	height: 750px;
+	width: 100%;
 
 	.diagram-builder-field {
 		position: relative;
