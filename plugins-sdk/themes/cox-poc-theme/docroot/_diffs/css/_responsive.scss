@@ -9,4 +9,19 @@
 	#wrapper, body {
 		padding: 0;
 	}
+
+	.btn-nav-toggle {
+		display: inline;
+		width: auto;
+	}
+}
+
+@include respond-to(phone) {
+	#navigation {
+		display: block;
+	}
+
+	.nav-item {
+		display: block;
+	}
 }

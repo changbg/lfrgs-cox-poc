@@ -1,1 +1,36 @@
 // COX POC UTILITY STYLES
+.breadcrumb {
+	background-color: $gray;
+
+	@include border-radius(0);
+
+	padding: 0.5em 2em;
+
+	> li {
+		text-shadow: none;
+	}
+
+	a {
+		color: #FFF;
+	}
+
+	.active {
+		background-color: #FFF;
+
+		padding: 3px 5px;
+
+		a {
+			color: $gray;
+		}
+	}
+}
+
+.breadcrumb .last .divider {
+	display: none;
+}
+
+.dropdown-menu >li > a:hover, .dropdown-menu >li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+	background-color: $accent;
+	background-image: none;
+	color: #FFF;
+}
